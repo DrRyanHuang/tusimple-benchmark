@@ -112,7 +112,7 @@ $$
 where $C_{clip}$ is the number of correct points in the last frame of the `clip`, 
 $S_{clip}$ is the number of requested points in the last frame of the `clip`. If the difference between the width of ground-truth and prediction is less than a threshold, the predicted point is a correct one. 
 
-其中 $C_{clip}$ 是`剪辑片段`最后一帧中正确点的数量，$S_{clip}$ 是`剪辑片段`最后一帧中GT的点数。 如果ground-truth和预测的宽度之差小于阈值，则预测点是正确的。
+其中 $C_{clip}$ 是`剪辑片段`最后一帧中正确点的数量, $S_{clip}$ 是`剪辑片段`最后一帧中GT的点数。 如果ground-truth和预测的宽度之差小于阈值，则预测点是正确的。
 
 If you some point is out of view or there is no lane markings of some specific `h_sample`, just record the detection as `-2`. We will evaluate the values of all heights in `h_sample`.
 
